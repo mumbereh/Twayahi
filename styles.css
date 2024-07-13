@@ -26,6 +26,11 @@ header {
     padding: 1rem;
     top: 0;
 }
+
+.logo img {
+    height: 40px;
+}
+
 /* Director Section */
 .director-section {
     display: flex;
@@ -53,14 +58,9 @@ header {
     color: #333;
 }
 
-
 footer {
     bottom: 0;
     padding: 0.3rem;
-}
-
-.logo img {
-    height: 40px;
 }
 
 nav {
@@ -94,6 +94,7 @@ nav {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 .hamburger span {
@@ -309,9 +310,4 @@ h1, h2, h3 {
 
 h1:hover, h2:hover, h3:hover {
     color: #0059b3; /* Color change on hover */
-}
-
-/* Improve layout spacing */
-.content {
-    /* padding: 0.5rem; */
 }
